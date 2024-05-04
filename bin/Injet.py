@@ -24,7 +24,7 @@ def connect(SSID_arr,wk,timeout):
 def read_map():
     map=""
     file_path=input("请输入字典文件路径(不带引号)->")
-    with open(file_path,"r") as file:
+    with open(file_path,"r",encoding="utf-8") as file:
         lines=file.readlines()
     return lines
     pass
