@@ -5,6 +5,10 @@
 ```bash
 pip install pywifi
 ```
+同时它需要一个依赖库
+```bash
+pip install comtypes
+```
 来安装它
 运行使只需
 ```bash
